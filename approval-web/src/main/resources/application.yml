@@ -1,5 +1,5 @@
 server:
-  port: 30001
+  port: 40001
 
 hystrix:
   command:
@@ -23,14 +23,15 @@ eureka:
 
 spring:
   application:
-    name: approval-service
-  datasource:
-    driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/approval?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&allowMultiQueries=true
-    username: root
-    password: root
+    name: approval-web
   main:
     allow-bean-definition-overriding: true
-mybatis:
-  mapperLocations: classpath:mybatis/xml/*.xml
-  configLocation: classpath:mybatis/mybatis-config.xml
+  freemarker:
+    template-loader-path: classpath:/ftl/
+    cache: false
+    check-template-location: true
+    content-type: text/html; charset=UTF-8
+    expose-request-attributes: true
+    expose-session-attributes: true
+    request-context-attribute: request
+    suffix: .ftl
