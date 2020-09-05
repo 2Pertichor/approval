@@ -1,8 +1,0 @@
-##ignore this file##
-/target/
-.gitignore
-.idea
-.classpath
-.project
-.settings/
-.iml
