@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/approval.iml" filepath="$PROJECT_DIR$/approval.iml" />
+      <module fileurl="file://$PROJECT_DIR$/approval-api/approval-api.iml" filepath="$PROJECT_DIR$/approval-api/approval-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/approval-service/approval-service.iml" filepath="$PROJECT_DIR$/approval-service/approval-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/approval-web/approval-web.iml" filepath="$PROJECT_DIR$/approval-web/approval-web.iml" />
+    </modules>
+  </component>
+</project>
